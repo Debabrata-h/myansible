@@ -1,0 +1,7 @@
+--- 
+- hosts: all
+   task:
+   -name: Install
+    service:
+    name: tree
+    status: present

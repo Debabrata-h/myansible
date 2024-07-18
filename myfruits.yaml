@@ -1,0 +1,24 @@
+---
+- students:
+   - name: anil
+     phone: 987
+     address:
+        streetno: 302
+        doorno: 12
+        pincode: 700028
+
+
+  - name: venil
+    phone: 867
+    address:
+       streetno: 303
+       doorno: 11
+       pincode: 700029
+
+  - name: sunil
+    phone: 123
+    address:
+       streetno: 304
+       doorno: 14
+       pincode: 700030
+  
