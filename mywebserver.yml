@@ -2,9 +2,16 @@
 - hosts: all
   become: yes
   tasks:
+
    - name: install webserver on ubuntu ansible nodes
      apt:
-     name: apache2
+      name: git
+      state: present
+    
+   - name: install tree
+     service:
+      name: tree
+      state: started
   
 
 
