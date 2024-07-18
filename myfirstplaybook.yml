@@ -12,6 +12,6 @@
 
   - name: start git
     service: 
-      name: git
-      state: started
+          name: git
+          state: started
   
