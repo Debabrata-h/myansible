@@ -16,7 +16,7 @@
      when: ansible_os_family=="Debian"     
   
    - name: install webserver on redhat
-      dnf:
+     dnf:
          name: httpd
          state: present
      when: ansible_os_family=="Redhat"
